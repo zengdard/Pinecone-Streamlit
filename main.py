@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-import pinecone
+import pinecone-client
 import openai
 
 openai.api_key  = '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'
