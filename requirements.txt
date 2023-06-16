@@ -1,2 +1,1 @@
 pinecone-client==2.2.2
-pinecone==2.2.2
