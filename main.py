@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-import pinecone_client
 import pinecone
 import openai
 
