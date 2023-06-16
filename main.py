@@ -1,4 +1,3 @@
-import pinecone
 import streamlit as st
 import time
 
