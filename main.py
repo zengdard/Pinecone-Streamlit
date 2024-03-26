@@ -4,11 +4,10 @@ import streamlit as st
 import time
 import openai
 
-openai.api_key  = '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'
 MODEL = "text-embedding-ada-002"
 
 # Instanciez le client Pinecone
-pinecone.init(api_key="adc9813f-f17f-49a6-befb-764a06fdad9a", environment="us-west4-gcp-free")
+pinecone.init(api_key="--49a6-befb-", environment="us-west4-gcp-free")
 index_name = "stendhalgpt"
 index = pinecone.Index(index_name)
 
@@ -29,7 +28,6 @@ def search(query, top_k=5):
             results = {}
     return results
 
-st.title("StendhalGPT SOURCES (BETA)")
 st.caption('StendhalGPT se veut neutre dans ses résultats proposés.')
 st.info("Notre base d'informations s'améliore de jour en jour !")
 # Input du texte
